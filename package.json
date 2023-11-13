@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "NODE_ENV=DEV node index.js",
+    "start": "node index.js",
     "start-prod": "NODE_ENV=PROD node index.js",
     "test": "jest --runInBand --detectOpenHandles --forceExit"
   },
