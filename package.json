@@ -9,7 +9,9 @@
   "scripts": {
     "start": "node index.js",
     "start-prod": "NODE_ENV=PROD node index.js",
-    "test": "jest --runInBand --detectOpenHandles --forceExit"
+    "test": "jest --runInBand --detectOpenHandles --forceExit",
+    "build": "npm install"
+
   },
   "dependencies": {
     "@hapi/joi": "^16.1.8",
