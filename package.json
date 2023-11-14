@@ -5,7 +5,6 @@
   "engines": {
     "node": ">=16.20.1"
   },
-
   "scripts": {
     "start": "node index.js",
     "start-prod": "NODE_ENV=PROD node index.js",
@@ -21,7 +20,7 @@
     "express": "~4.16.1",
     "jest": "^24.9.0",
     "jsonwebtoken": "^8.5.1",
-    "mongoose": "^5.7.13",
+    "mongoose": "^6.12.3",
     "mongoose-unique-validator": "^2.0.3",
     "morgan": "~1.9.1",
     "superagent": "^6.1.0",
