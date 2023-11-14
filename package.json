@@ -4,17 +4,15 @@
   "private": true,
   "engines": {
     "node": "16.20.1",
-    "npm": "8.19.4"
-  
+    "npm": "7.24.2"
   },
   "scripts": {
     "start": "node index.js",
     "start-prod": "NODE_ENV=PROD node index.js",
     "test": "jest --runInBand --detectOpenHandles --forceExit"
-  
-
   },
   "dependencies": {
+    "7": "^0.0.1",
     "@hapi/joi": "^16.1.8",
     "bcryptjs": "^2.4.3",
     "cookie-parser": "^1.4.5",
