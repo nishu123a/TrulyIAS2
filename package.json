@@ -10,8 +10,7 @@
   "scripts": {
     "start": "node index.js",
     "start-prod": "NODE_ENV=PROD node index.js",
-    "test": "jest --runInBand --detectOpenHandles --forceExit",
-    
+    "test": "jest --runInBand --detectOpenHandles --forceExit"
 
   },
   "dependencies": {
