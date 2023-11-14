@@ -3,8 +3,11 @@
   "version": "0.0.0",
   "private": true,
   "engines": {
-    "node": ">=16.20.1"
+    "node": ">=16.20.1",
+    "npm": ">=7.0.0"
   },
+    
+  
   "scripts": {
     "start": "node index.js",
     "start-prod": "NODE_ENV=PROD node index.js",
@@ -31,4 +34,5 @@
     "eslint-config-airbnb-base": "^14.2.0",
     "eslint-plugin-import": "^2.22.0"
   }
+
 }

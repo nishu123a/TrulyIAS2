@@ -38,7 +38,6 @@ if (process.env.NODE_ENV === 'PROD') {
 
 const mongooseOptions = {
   useNewUrlParser: true,
-  useCreateIndex: true,
   useUnifiedTopology: true,
   serverSelectionTimeoutMS: TIMEOUT_SECONDS,
 }
@@ -53,6 +52,8 @@ mongoose.connect(DB, mongooseOptions)
     console.log(`Error on start: ${err.stack}`)
     process.exit(1)
   })
+
+  
 
 app.use(cookieParser())
 app.use(cors({
