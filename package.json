@@ -3,8 +3,9 @@
   "version": "0.0.0",
   "private": true,
   "engines": {
-    "node": ">=16.20.1",
-    "npm": ">=7.0.0"
+    "node": "16.20.1",
+    "npm": "8.19.4"
+  
   },
   "scripts": {
     "start": "node index.js",
