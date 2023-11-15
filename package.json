@@ -4,7 +4,8 @@
   "private": true,
   "engines": {
     "node": "16.20.1",
-    "npm": "7.24.2"
+    "npm": "8.19.4"
+
   },
   
   "scripts": {
