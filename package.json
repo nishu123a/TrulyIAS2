@@ -1,18 +1,13 @@
 {
-  "name": "TRulyIas",
+  "name": "qa",
   "version": "0.0.0",
   "private": true,
-  "engines": {
-    "node": "16.20.1",
-    "npm": "7.24.2"
-  },
   "scripts": {
-    "start": "node index.js",
+    "start": "NODE_ENV=DEV node index.js",
     "start-prod": "NODE_ENV=PROD node index.js",
     "test": "jest --runInBand --detectOpenHandles --forceExit"
   },
   "dependencies": {
-    "7": "^0.0.1",
     "@hapi/joi": "^16.1.8",
     "bcryptjs": "^2.4.3",
     "cookie-parser": "^1.4.5",
@@ -22,8 +17,8 @@
     "express": "~4.16.1",
     "jest": "^24.9.0",
     "jsonwebtoken": "^8.5.1",
-    "mongoose": "^7.6.5",
-        "mongoose-unique-validator": "^4.0.0",
+    "mongoose": "^5.7.13",
+    "mongoose-unique-validator": "^2.0.3",
     "morgan": "~1.9.1",
     "superagent": "^6.1.0",
     "supertest": "^4.0.2"
