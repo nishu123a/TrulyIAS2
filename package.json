@@ -22,8 +22,8 @@
     "express": "~4.16.1",
     "jest": "^24.9.0",
     "jsonwebtoken": "^8.5.1",
-    "mongoose": "^5.2.1",
-    "mongoose-unique-validator": "^2.0.3",
+    "mongoose": "^7.6.5",
+        "mongoose-unique-validator": "^4.0.0",
     "morgan": "~1.9.1",
     "superagent": "^6.1.0",
     "supertest": "^4.0.2"

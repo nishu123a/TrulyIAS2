@@ -37,9 +37,8 @@ if (process.env.NODE_ENV === 'PROD') {
 }
 
 const mongooseOptions = {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-  serverSelectionTimeoutMS: TIMEOUT_SECONDS,
+  
+  serverSelectionTimeoutMS: TIMEOUT_SECONDS
 }
 
 mongoose.connect(DB, mongooseOptions)
