@@ -36,9 +36,7 @@ if (process.env.NODE_ENV === 'PROD') {
 }
 
 const mongooseOptions = {
-  useNewUrlParser: true,
-  useCreateIndex: true,
-  useUnifiedTopology: true,
+ 
   serverSelectionTimeoutMS: TIMEOUT_SECONDS,
 }
 
